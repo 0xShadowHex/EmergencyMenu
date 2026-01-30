@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./resources/icon.png" sizes="any">
+    <meta property="og:title" content="Emergency Menu">
+    <meta property="og:description" content="When every other IDE is down, we are up and working!">
+    <meta property="og:image" content="https://emergencymenu.vercel.app/resources/icon.png">
+    <title>EmergencyMenu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="hazard-tape-bg"></div>
+
+        <div class="siren-container">
+            <div class="siren">
+                <div class="siren-light red"></div>
+                <div class="siren-light blue"></div>
+            </div>
+        </div>
+
+        <main class="content">
+            <section class="hero-section">
+                <div class="hero-content">
+                    <h1 class="title">EMERGENCY MENU</h1>
+                    <div class="hazard-tape-divider"></div>
+                    <p class="subtitle">⚠️ Everything down? We got you! ⚠️</p>
+                </div>
+            </section>
+
+            <section class="button-section">
+                <button class="download-btn" onclick="downloadZip()">
+                    <span class="btn-text">DOWNLOAD</span>
+                    <span class="btn-icon">↓</span>
+                </button>
+                <p class="button-description">Free, keyless, adless and ready-to-use at any moment</p>
+            </section>
+
+            <div class="hazard-stripes">
+                <div class="stripe"></div>
+                <div class="stripe"></div>
+                <div class="stripe"></div>
+            </div>
+        </main>
+
+        <div class="floating-symbols">
+            <div class="symbol">⚠️</div>
+            <div class="symbol">🚨</div>
+            <div class="symbol">⚠️</div>
+            <div class="symbol">🚨</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
