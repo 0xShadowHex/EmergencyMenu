@@ -39,9 +39,6 @@ This project does not currently accept external contributions.
 
 ## License
 
-This project is released without any license restrictions.
+This project is released as Creative Comons Zero license.
 
----
-
-*This README is provided for informational purposes only. Use the tool at your own discretion.*
-```
+## For educational purposes only
