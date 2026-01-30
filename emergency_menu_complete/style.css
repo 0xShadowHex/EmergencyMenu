@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+*::selection{
+    background: orange;
+}
 :root {
     --yellow: #FFD700;
     --black: #1A1A1A;
